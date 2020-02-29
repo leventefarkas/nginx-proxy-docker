@@ -6,3 +6,7 @@ docker/proxy/default/index.html
 ### Config ###
 docker-compose.yml
 docker/proxy/sites-enabled/*.conf
+
+### Log ###
+docker/proxy/log
+!docker/proxy/log/.gitkeep
