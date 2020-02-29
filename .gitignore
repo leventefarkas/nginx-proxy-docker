@@ -1,4 +1,8 @@
 .idea
 
+### Default HTML ###
+docker/proxy/default/index.html
+
 ### Config ###
 docker-compose.yml
+docker/proxy/sites-enabled/*.conf

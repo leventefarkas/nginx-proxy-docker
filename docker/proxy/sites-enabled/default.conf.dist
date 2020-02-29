@@ -1,0 +1,16 @@
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    root /var/www/html;
+
+    index index.php;
+    error_page 403 /index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    error_log /code/docker/nginx/log/default_error.log;
+    access_log /code/docker/nginx/log/default_access.log;
+}
