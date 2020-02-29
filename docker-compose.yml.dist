@@ -16,4 +16,3 @@ services:
 networks:
   proxy:
     driver: bridge
-    name: nginx_proxy
