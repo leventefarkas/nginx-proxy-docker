@@ -8,5 +8,5 @@ docker-compose.yml
 docker/proxy/sites-enabled/*.conf
 
 ### Log ###
-docker/proxy/log
 !docker/proxy/log/.gitkeep
+docker/proxy/log
